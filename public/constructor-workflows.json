@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "workflows": [
+    {
+      "id": "consultar_catalogo",
+      "name": "Consultar carta y horarios",
+      "description": "Lee los servicios de ejemplo, el equipo y el horario semanal.",
+      "endpoint": "/api/catalogo",
+      "method": "GET",
+      "input": {}
+    }
+  ]
+}

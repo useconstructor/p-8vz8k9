@@ -1,0 +1,1018 @@
+{
+  "primaryColor": "#743746",
+  "secondaryColor": "#A5AEAA",
+  "backgroundColor": "#F2EFE8",
+  "textColor": "#201D1B",
+  "accentColor": "#743746",
+  "fontHeading": "Barlow Condensed",
+  "fontBody": "Source Sans 3",
+  "borderRadius": "0.5rem",
+  "logoText": "Navaja & Roble",
+  "logoImageUrl": null,
+  "tone": "elegant",
+  "brandbook": {
+    "version": 1,
+    "origin": "proposed",
+    "researchStatus": "not_requested",
+    "tokenSemanticsVersion": 1,
+    "positioning": "Barbería clásica ficticia de Bogotá para quienes aprecian precisión, ritual y una reserva clara. Identidad de demostración original; servicios, equipo, precios y horarios son ejemplos suministrados, no hechos verificados de un establecimiento real.",
+    "voice": "Español elegante, masculino y cordial, sin solemnidad excesiva. Frases breves y concretas; «El oficio se nota» como declaración principal. Acciones directas, errores serenos y estados honestos. Sin credenciales, testimonios ni promesas de atención real.",
+    "motif": "Espejo de oficio: rectángulo con laterales y travesaños conectados, roble geométrico y bisel acero. Una veta SVG de trazos contenidos evita simular fotografía. El borde inferior es la superficie de trabajo donde se unen referencia elegida, ajuste, revisión y resultado guardado.",
+    "sources": [
+      "https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&display=swap",
+      "https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&display=swap"
+    ],
+    "colors": [
+      {
+        "role": "background",
+        "name": "Bone",
+        "hex": "#F2EFE8"
+      },
+      {
+        "role": "surface",
+        "name": "Steel",
+        "hex": "#A5AEAA"
+      },
+      {
+        "role": "accent",
+        "name": "Burgundy",
+        "hex": "#743746"
+      },
+      {
+        "role": "text",
+        "name": "Ink",
+        "hex": "#201D1B"
+      },
+      {
+        "role": "muted",
+        "name": "Oak",
+        "hex": "#725039"
+      }
+    ],
+    "fontFaces": [
+      {
+        "family": "Barlow Condensed",
+        "weight": "400",
+        "url": "https://fonts.gstatic.com/s/barlowcondensed/v13/HTx3L3I-JCGChYJ8VI-L6OO_au7B2xY.ttf",
+        "availableWeights": [
+          "400",
+          "500",
+          "600",
+          "700"
+        ]
+      },
+      {
+        "family": "Barlow Condensed",
+        "weight": "500",
+        "url": "https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B4-Lw_3E.ttf",
+        "availableWeights": [
+          "400",
+          "500",
+          "600",
+          "700"
+        ]
+      },
+      {
+        "family": "Barlow Condensed",
+        "weight": "600",
+        "url": "https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B4873_3E.ttf",
+        "availableWeights": [
+          "400",
+          "500",
+          "600",
+          "700"
+        ]
+      },
+      {
+        "family": "Barlow Condensed",
+        "weight": "700",
+        "url": "https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2_3E.ttf",
+        "availableWeights": [
+          "400",
+          "500",
+          "600",
+          "700"
+        ]
+      },
+      {
+        "family": "Source Sans 3",
+        "weight": "400",
+        "url": "https://fonts.gstatic.com/s/sourcesans3/v20/nwpBtKy2OAdR1K-IwhWudF-R9QMylBJAV3Bo8Ky461EN.ttf",
+        "availableWeights": [
+          "400",
+          "500",
+          "600",
+          "700"
+        ]
+      },
+      {
+        "family": "Source Sans 3",
+        "weight": "500",
+        "url": "https://fonts.gstatic.com/s/sourcesans3/v20/nwpBtKy2OAdR1K-IwhWudF-R9QMylBJAV3Bo8KyK61EN.ttf",
+        "availableWeights": [
+          "400",
+          "500",
+          "600",
+          "700"
+        ]
+      },
+      {
+        "family": "Source Sans 3",
+        "weight": "600",
+        "url": "https://fonts.gstatic.com/s/sourcesans3/v20/nwpBtKy2OAdR1K-IwhWudF-R9QMylBJAV3Bo8Kxm7FEN.ttf",
+        "availableWeights": [
+          "400",
+          "500",
+          "600",
+          "700"
+        ]
+      },
+      {
+        "family": "Source Sans 3",
+        "weight": "700",
+        "url": "https://fonts.gstatic.com/s/sourcesans3/v20/nwpBtKy2OAdR1K-IwhWudF-R9QMylBJAV3Bo8Kxf7FEN.ttf",
+        "availableWeights": [
+          "400",
+          "500",
+          "600",
+          "700"
+        ]
+      }
+    ],
+    "markSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 160 160\"><path fill=\"#725039\" fill-rule=\"evenodd\" d=\"M40 14H120L142 36V124L120 146H40L18 124V36ZM44 28L32 40V120L44 132H116L128 120V40L116 28Z\"/><path fill=\"#A5AEAA\" d=\"M44 28H116L128 40V120L116 132H44L32 120V40L44 28ZM48 36L40 44V116L48 124H112L120 116V44L112 36Z\" fill-rule=\"evenodd\"/><path fill=\"#201D1B\" d=\"M54 112L69 87L60 70L80 46H91L70 71L79 87L65 112Z\"/><path fill=\"#725039\" d=\"M78 112L92 89L83 73L103 49L109 54L93 74L102 89L88 112Z\"/><path fill=\"#743746\" d=\"M66 132H94V146H66Z\"/></svg>",
+    "pages": [
+      {
+        "title": "Brand guidelines",
+        "summary": "Barbería clásica ficticia de Bogotá para quienes aprecian precisión, ritual y una reserva clara.",
+        "examples": [
+          {
+            "title": "Navaja & Roble",
+            "text": "El oficio se nota"
+          },
+          {
+            "title": "Cover signature",
+            "text": "Identity and experience guide · Espejo de oficio"
+          }
+        ],
+        "id": "brand-page-1",
+        "layout": "cover"
+      },
+      {
+        "title": "The Brand",
+        "summary": "Use Burgundy chapter dividers with one short heading and generous space. Introduce the mirror frame as a working structure, not a nostalgic decoration.",
+        "examples": [
+          {
+            "title": "El oficio se nota",
+            "text": "Navaja & Roble · Bogotá"
+          },
+          {
+            "title": "Divider composition",
+            "text": "Place the heading above one connected frame edge. Do not scatter razors, poles or ornamental flourishes around it."
+          }
+        ],
+        "id": "brand-page-2",
+        "layout": "divider"
+      },
+      {
+        "title": "Welcome",
+        "summary": "This guide presents an original identity proposed for this project, with examples of its visual and editorial use.",
+        "examples": [
+          {
+            "title": "Public disclosure",
+            "text": "Negocio ficticio de ejemplo. Equipo, servicios, precios, horarios e imágenes ilustrativos"
+          },
+          {
+            "title": "Disclosure placement",
+            "text": "Show that notice once on each website page in a readable footer. Do not present the example team or Bogotá setting as verified business facts."
+          },
+          {
+            "title": "Scope",
+            "text": "Use this guide for Navaja & Roble only. No real homonymous business, official identity or external valuation is represented."
+          }
+        ],
+        "id": "brand-page-3",
+        "layout": "content"
+      },
+      {
+        "title": "Index",
+        "summary": "Keep the guide in this sequence: identity, logo, typography, color, graphic language and applications. Use page numbers as quiet navigation rather than decorative labels.",
+        "examples": [
+          {
+            "title": "01–15 · Identity and logo",
+            "text": "Cover, brand context, voice, signature, spacing and misuse."
+          },
+          {
+            "title": "16–29 · Visual system",
+            "text": "Typography, hierarchy, layouts, palette, icons and vector direction."
+          },
+          {
+            "title": "30–49 · Applications",
+            "text": "Design studies for editorial formats, booking, private management and printed objects."
+          }
+        ],
+        "id": "brand-page-4",
+        "layout": "content"
+      },
+      {
+        "title": "Defining",
+        "summary": "Build Espejo de oficio around one connected frame and its lower working edge. Discovery and booking share this structure; avoid split heroes, SaaS styling and repeated cards.",
+        "examples": [
+          {
+            "title": "One visual subject",
+            "text": "A complete vector chair occupies the home mirror. Service selection and Reservar ahora begin exactly beneath the scene."
+          },
+          {
+            "title": "One continuous story",
+            "text": "Chair and booking → services → horizontal ritual → shared team composition → Bogotá and example hours."
+          }
+        ],
+        "id": "brand-page-5",
+        "layout": "content"
+      },
+      {
+        "title": "Vision & Mission",
+        "summary": "Treat vision and mission as project intentions, not corporate claims. The visual goal is composed craftsmanship; the experience goal is a clear, honest appointment journey.",
+        "examples": [
+          {
+            "title": "Visual intention",
+            "text": "Express precision through connected edges, deliberate typography and restrained vector grain—not luxury superlatives."
+          },
+          {
+            "title": "Experience intention",
+            "text": "Keep the chosen service recognizable from discovery through review and the persisted appointment result."
+          }
+        ],
+        "id": "brand-page-6",
+        "layout": "content"
+      },
+      {
+        "title": "Brand Values",
+        "summary": "Use precision, restraint and cordiality as proposed design criteria. Express them through alignment, limited decoration and useful language, never unsupported claims about a real business.",
+        "examples": [
+          {
+            "title": "Precision",
+            "text": "Corte · 45 min · $45.000 COP. Keep these three facts together wherever Corte is selected."
+          },
+          {
+            "title": "Restraint",
+            "text": "Use one Burgundy action on the working edge; leave the surrounding Bone surface quiet."
+          },
+          {
+            "title": "Cordiality",
+            "text": "No hay horas disponibles para esta selección. Puedes elegir otra fecha u otro barbero."
+          }
+        ],
+        "id": "brand-page-7",
+        "layout": "content"
+      },
+      {
+        "title": "Tone of Voice",
+        "summary": "Write public copy in elegant, masculine and cordial Spanish. Use short sentences and direct actions; avoid macho exclusion, false heritage, testimonials and promises of real attendance.",
+        "examples": [
+          {
+            "title": "Headline and invitation",
+            "text": "El oficio se nota. Elige tu servicio y consulta los horarios disponibles."
+          },
+          {
+            "title": "Calm correction",
+            "text": "Revisa el celular. Debe tener 10 dígitos y comenzar por 3."
+          },
+          {
+            "title": "Honest uncertainty",
+            "text": "Aún no podemos confirmar el resultado. Recupera el estado de esta solicitud antes de intentar otra."
+          }
+        ],
+        "id": "brand-page-8",
+        "layout": "content"
+      },
+      {
+        "title": "Logo",
+        "summary": "Introduce the signature on Steel #A5AEAA, with the symbol on a Bone support surface. Present the business name in real typography, never embedded inside the symbol.",
+        "examples": [
+          {
+            "title": "Signature study",
+            "text": "Navaja & Roble"
+          },
+          {
+            "title": "Section opener",
+            "text": "One beveled frame. One restrained grain. A complete, readable name."
+          }
+        ],
+        "id": "brand-page-9",
+        "layout": "divider"
+      },
+      {
+        "title": "Logo overview",
+        "summary": "The proposed signature combines the geometric bevel-and-grain symbol with a condensed typographic name. Keep the frame, inner grain and Burgundy working-edge marker intact.",
+        "examples": [
+          {
+            "title": "Horizontal arrangement",
+            "text": "Place the symbol left of Navaja & Roble. Align the name optically with the symbol’s center, not its upper corner."
+          },
+          {
+            "title": "Stacked arrangement",
+            "text": "Center the symbol above Navaja & Roble on covers and signs. The name remains one readable line."
+          }
+        ],
+        "id": "brand-page-10",
+        "layout": "logo"
+      },
+      {
+        "title": "Primary logo",
+        "summary": "Set Navaja & Roble in Barlow Condensed Semibold with its exact spelling, spaces and ampersand. Preserve live typography; do not replace the name with a descriptive heading.",
+        "examples": [
+          {
+            "title": "Primary signature",
+            "text": "Navaja & Roble"
+          },
+          {
+            "title": "Header scale",
+            "text": "Use a 32 px symbol beside a 24 px name in the compact header. Keep the navigation action outside the logo’s clear space."
+          },
+          {
+            "title": "Ampersand treatment",
+            "text": "Keep the typographic ampersand legible. The separate bevel-and-grain symbol carries the custom geometry."
+          }
+        ],
+        "id": "brand-page-11",
+        "layout": "logo"
+      },
+      {
+        "title": "Logo Safezone",
+        "summary": "Define x as one quarter of the symbol width. Leave at least x clear around a lockup and between symbol and name; measure from visible geometry, not the SVG canvas.",
+        "examples": [
+          {
+            "title": "Compact header",
+            "text": "At 32 px symbol width, reserve at least 8 px clear space. Do not let the menu icon enter this area."
+          },
+          {
+            "title": "Printed signature",
+            "text": "At 16 mm symbol width, keep 4 mm clear around the full lockup, including below the name."
+          }
+        ],
+        "id": "brand-page-12",
+        "layout": "logo"
+      },
+      {
+        "title": "Color combinations",
+        "summary": "Keep the original multicolor symbol on a Bone support surface in colored applications. Use Ink text on Bone or Steel, and Bone text on Ink or Burgundy.",
+        "examples": [
+          {
+            "title": "Dark cover",
+            "text": "Ink field, Bone title, Bone symbol support. Do not invert individual pieces of the symbol."
+          },
+          {
+            "title": "Steel logo study",
+            "text": "Steel field, Ink name, Bone support behind the complete mark."
+          },
+          {
+            "title": "Primary action",
+            "text": "Reservar ahora uses Bone text on Burgundy. Avoid Steel lettering on the light background."
+          }
+        ],
+        "id": "brand-page-13",
+        "layout": "colors"
+      },
+      {
+        "title": "Brandmark",
+        "summary": "Use the supplied original SVG geometry as the shared symbol source. Its connected beveled frame and two angular grain paths represent Espejo de oficio, not an initial or barber-pole cliché.",
+        "examples": [
+          {
+            "title": "Standalone use",
+            "text": "Use the symbol alone for the favicon and avatar when Navaja & Roble is named in the surrounding interface."
+          },
+          {
+            "title": "Small reproduction",
+            "text": "Keep the full 160 × 160 viewBox and proportional scaling. Never crop the lower Burgundy marker to make the symbol fit."
+          }
+        ],
+        "id": "brand-page-14",
+        "layout": "logo"
+      },
+      {
+        "title": "Logo misuse",
+        "summary": "Do not stretch, rotate, outline, shadow or fragment the signature. Keep grain subordinate to the frame and never add neon, crossed razors or invented establishment dates.",
+        "examples": [
+          {
+            "title": "Incorrect",
+            "text": "NAVAJA Y ROBLE changes the name. Always retain Navaja & Roble."
+          },
+          {
+            "title": "Incorrect",
+            "text": "A Burgundy symbol directly on Burgundy disappears. Restore the Bone support surface instead of recoloring the geometry."
+          },
+          {
+            "title": "Incorrect",
+            "text": "Do not add “Desde 1985”, “La mejor de Bogotá” or certification badges."
+          }
+        ],
+        "id": "brand-page-15",
+        "layout": "logo"
+      },
+      {
+        "title": "Typography",
+        "summary": "Use condensed headings for presence and open body typography for clarity. Keep sentence case, compact headline leading and generous reading space; avoid ornamental capitals.",
+        "examples": [
+          {
+            "title": "El oficio se nota",
+            "text": "Elige tu servicio. Consulta la disponibilidad y revisa tu cita de ejemplo."
+          },
+          {
+            "title": "Two-family rule",
+            "text": "Barlow Condensed carries the headline; Source Sans 3 carries the explanation, labels and actions."
+          }
+        ],
+        "id": "brand-page-16",
+        "layout": "divider"
+      },
+      {
+        "title": "Typography overview",
+        "summary": "Use Barlow Condensed and Source Sans 3 from the supplied distributable font resources. Both families have supplied 400, 500, 600 and 700 weights; do not introduce a third display face.",
+        "examples": [
+          {
+            "title": "Un servicio, todos los detalles",
+            "text": "Consulta duración, precio de ejemplo y horarios antes de reservar."
+          },
+          {
+            "title": "Fallback treatment",
+            "text": "If font loading fails, use sans-serif without changing content or shrinking controls. The fallback is not the intended brand typography."
+          }
+        ],
+        "id": "brand-page-17",
+        "layout": "type"
+      },
+      {
+        "title": "Primary typeface",
+        "summary": "Set primary headings in Barlow Condensed Semibold at 72 px desktop and 44 px phone, with approximately 1.0 line height. Keep the headline above the complete scene.",
+        "examples": [
+          {
+            "title": "El oficio se nota",
+            "text": "Corte, barba y afeitado tradicional en una experiencia de ejemplo."
+          },
+          {
+            "title": "Heading measure",
+            "text": "Use a short, deliberate line above the mirror. On narrow screens, wrap naturally rather than compressing or clipping the letters."
+          }
+        ],
+        "id": "brand-page-18",
+        "layout": "type"
+      },
+      {
+        "title": "Typography",
+        "summary": "Use upright styles: Barlow Condensed 600 for signature headings; Source Sans 3 400 for reading, 500 for labels and 600 for actions. Reserve 700 for compact emphasis, not the main hero.",
+        "examples": [
+          {
+            "title": "Revisa tu cita",
+            "text": "Comprueba el servicio, el barbero y el horario antes de guardar."
+          },
+          {
+            "title": "Weight distinction",
+            "text": "Set “Corte + barba” in 600 and its explanatory sentence in 400. Do not simulate bold or use italics as a status signal."
+          },
+          {
+            "title": "Strong emphasis",
+            "text": "A compact “Horario actualizado” may use 700. Keep the adjoining explanation regular to preserve hierarchy."
+          }
+        ],
+        "id": "brand-page-19",
+        "layout": "type"
+      },
+      {
+        "title": "Supporting type",
+        "summary": "Use Source Sans 3 for body text, prices, forms and schedules. Body and fields stay at least 16 px, navigation and buttons 14 px, and auxiliary text 12 px.",
+        "examples": [
+          {
+            "title": "Elige una hora",
+            "text": "Los horarios se muestran en hora de Bogotá."
+          },
+          {
+            "title": "Numeric clarity",
+            "text": "Keep “09:00–10:15”, “75 min” and “$65.000 COP” unbroken. Use tabular numerals in the owner’s agenda."
+          }
+        ],
+        "id": "brand-page-20",
+        "layout": "type"
+      },
+      {
+        "title": "Hierarchy",
+        "summary": "Use one page heading, clear section headings and one dominant action per stage. Pair service name, duration and price before secondary explanation; never make auxiliary notes compete with results.",
+        "examples": [
+          {
+            "title": "Corte + barba",
+            "text": "75 min · $65.000 COP"
+          },
+          {
+            "title": "Hierarchy specimen",
+            "text": "Revisar reserva → service specification → Reservar cita de ejemplo → Editar selección."
+          },
+          {
+            "title": "Result hierarchy",
+            "text": "Cita de ejemplo guardada comes before the code and management actions. Version details belong in a secondary disclosure."
+          }
+        ],
+        "id": "brand-page-21",
+        "layout": "type"
+      },
+      {
+        "title": "Layouts",
+        "summary": "Use an 8 px spacing scale and a shared working edge. Keep full vector contours visible; at narrow widths reduce gaps, not type size, and place controls below rather than over the scene.",
+        "examples": [
+          {
+            "title": "Tu próxima cita",
+            "text": "Elige servicio, barbero, fecha y hora."
+          },
+          {
+            "title": "Desktop and tablet",
+            "text": "At 1440 px, center the dominant mirror. At 768 px, use a 280 px scene beside flexible controls; date and personal fields follow below."
+          },
+          {
+            "title": "390 × 640 composition",
+            "text": "Budget about 52 px navigation, 44 title, 120 complete scene, 76 selection/action and 220 initial controls. Keep date and next time visible."
+          }
+        ],
+        "id": "brand-page-22",
+        "layout": "applications"
+      },
+      {
+        "title": "Colors",
+        "summary": "Use Bone as the main canvas, Ink for reading and Burgundy for action. Steel and Oak articulate the mirror; keep large colored areas purposeful rather than alternating every section.",
+        "examples": [
+          {
+            "title": "Palette rhythm",
+            "text": "Bone page → Oak mirror edge → Steel bevel → Burgundy selection marker."
+          },
+          {
+            "title": "Chapter divider",
+            "text": "Use a Burgundy field with a Bone heading and one quiet frame detail, not a full palette mosaic."
+          }
+        ],
+        "id": "brand-page-23",
+        "layout": "divider"
+      },
+      {
+        "title": "Colors overview",
+        "summary": "Preserve all supplied hex values. Semantic roles are Bone background, Steel surface, Burgundy accent, Ink text and Oak muted detail. Success is an additional state token, never a replacement brand color.",
+        "examples": [
+          {
+            "title": "Core tokens",
+            "text": "Bone #F2EFE8 · Steel #A5AEAA · Burgundy #743746"
+          },
+          {
+            "title": "Reading and structure",
+            "text": "Ink #201D1B · Oak #725039. Use Oak sparingly for frame structure and secondary detail."
+          },
+          {
+            "title": "Saved state",
+            "text": "Success #28604B accompanies “Guardado” and a check icon. Meaning must remain clear without color."
+          }
+        ],
+        "id": "brand-page-24",
+        "layout": "colors"
+      },
+      {
+        "title": "Using Tints",
+        "summary": "Keep semantic tokens at their exact values. Optional tints belong only in quiet decorative fields; never fade body copy, selected controls, focus indicators or the original symbol.",
+        "examples": [
+          {
+            "title": "Subtle grain",
+            "text": "Use a light Oak-over-Bone decorative grain behind an empty area, with no text crossing it."
+          },
+          {
+            "title": "Readable states",
+            "text": "Do not signal “No disponible” with faded Steel text. Use readable Ink wording and a distinct noninteractive treatment."
+          },
+          {
+            "title": "Contrast pairing",
+            "text": "Keep text at WCAG AA contrast and control boundaries at least 3:1. Steel is a surface or line, not small text on Bone."
+          }
+        ],
+        "id": "brand-page-25",
+        "layout": "colors"
+      },
+      {
+        "title": "Graphic Elements",
+        "summary": "Construct scenes entirely with CSS and original SVG. Join Oak uprights and crossbars, add a Steel bevel and restrained grain, and keep the lower working edge solid and unobstructed.",
+        "examples": [
+          {
+            "title": "Hero scene",
+            "text": "Show a complete chair with rectangular back, curved arms and circular base. Keep every contour inside the connected frame."
+          },
+          {
+            "title": "Selection movement",
+            "text": "Move the edge indicator for 280 ms as the service reference and facts update together. Keep focus on the selected control."
+          },
+          {
+            "title": "Reduced motion",
+            "text": "Apply final states immediately. Remove indicator travel and ritual reveals without removing selection or status feedback."
+          }
+        ],
+        "id": "brand-page-26",
+        "layout": "divider"
+      },
+      {
+        "title": "Icons",
+        "summary": "Separate service references from utility icons. Give each service a stable SVG silhouette; tools illustrate only the ritual. Utility icons use consistent strokes and always retain accessible labels.",
+        "examples": [
+          {
+            "title": "Service silhouettes",
+            "text": "Corte: side-part profile. Barba: defined jaw contour. Corte + barba: both features. Afeitado: reclined face with folded towel."
+          },
+          {
+            "title": "Utility labels",
+            "text": "Pair the copy icon with “Copiar código”, the calendar with “Fecha” and a check with “Guardado”."
+          },
+          {
+            "title": "Missing reference",
+            "text": "Show the selected service name and “Referencia visual no disponible” inside the same frame. Keep valid booking actions available."
+          }
+        ],
+        "id": "brand-page-27",
+        "layout": "content"
+      },
+      {
+        "title": "Vector imagery",
+        "summary": "Replace the photography chapter with deliberate vector art direction. Use no raster imagery, stock interiors or simulated photographs; portraits must read as graphic fictional characters.",
+        "examples": [
+          {
+            "title": "Team composition",
+            "text": "Place Tomás, Julián and Samuel on one shared crossbar. Distinguish their bust silhouettes without implying photographic likeness."
+          },
+          {
+            "title": "Ritual composition",
+            "text": "Arrange vector tools along a horizontal Oak line. Use the tools to explain sequence, never as substitutes for selected service profiles."
+          }
+        ],
+        "id": "brand-page-28",
+        "layout": "applications"
+      },
+      {
+        "title": "Moodboard",
+        "summary": "Build the moodboard from internal ingredients: beveled geometry, abstract grain, condensed type and quiet steel surfaces. Avoid borrowed brand imagery, neon and fabricated vintage history.",
+        "examples": [
+          {
+            "title": "Espejo de oficio",
+            "text": "Bone plane, connected Oak frame, Steel inset and a restrained Burgundy working-edge marker."
+          },
+          {
+            "title": "Editorial character",
+            "text": "Pair “El oficio se nota” with a complete graphic chair and a generous blank margin—not distressed paper or gold ornament."
+          }
+        ],
+        "id": "brand-page-29",
+        "layout": "applications"
+      },
+      {
+        "title": "Applications",
+        "summary": "All following applications are design studies. Carry the connected frame, exact name and single working edge across formats; do not imply that a pictured object or control is already implemented.",
+        "examples": [
+          {
+            "title": "El oficio se nota",
+            "text": "Navaja & Roble · Servicios y reservas de ejemplo"
+          },
+          {
+            "title": "Transfer rule",
+            "text": "Keep one dominant subject and one useful action. Printed studies must not introduce sales, memberships or unplanned services."
+          }
+        ],
+        "id": "brand-page-30",
+        "layout": "divider"
+      },
+      {
+        "title": "Social media icons",
+        "summary": "Design study: center the unchanged symbol on a Bone square. Keep its full silhouette inside circular avatar crops; use the profile name to supply the business name.",
+        "examples": [
+          {
+            "title": "Navaja & Roble",
+            "text": "El oficio se nota"
+          },
+          {
+            "title": "Avatar crop",
+            "text": "Keep at least 24 units of outer padding in a 160-unit avatar composition. Do not place tiny lettering beneath the symbol."
+          }
+        ],
+        "id": "brand-page-31",
+        "layout": "logo"
+      },
+      {
+        "title": "Social media profiles",
+        "summary": "Design study: pair the symbol avatar with the exact business name and a brief Spanish bio. Show no invented handle, follower count, reviews, phone number or verified badge.",
+        "examples": [
+          {
+            "title": "Navaja & Roble",
+            "text": "Barbería clásica de ejemplo en Bogotá. Explora servicios, conoce al equipo y consulta disponibilidad."
+          },
+          {
+            "title": "Profile composition",
+            "text": "Use a Bone header with a cropped frame detail, not a cropped chair. Keep the actual account address unspecified."
+          }
+        ],
+        "id": "brand-page-32",
+        "layout": "applications"
+      },
+      {
+        "title": "Instagram posts",
+        "summary": "Design study: use one headline and one vector reference per post. Keep prices and durations together, with the example context visible; do not imitate customer testimonials.",
+        "examples": [
+          {
+            "title": "Corte + barba",
+            "text": "75 min · $65.000 COP. Servicio y precio de ejemplo."
+          },
+          {
+            "title": "Tres especialidades",
+            "text": "Tomás: cortes clásicos. Julián: diseño de barba. Samuel: afeitado tradicional."
+          },
+          {
+            "title": "Post layout",
+            "text": "Reserve the bottom frame edge for the service facts. Keep the vector profile above it and the caption outside the illustration."
+          }
+        ],
+        "id": "brand-page-33",
+        "layout": "applications"
+      },
+      {
+        "title": "Posters",
+        "summary": "Design study: give the headline most of the poster’s attention, followed by the complete chair and a small signature. Use Bogotá as supplied context, not a fabricated street location.",
+        "examples": [
+          {
+            "title": "El oficio se nota",
+            "text": "Navaja & Roble · Bogotá · Barbería ficticia de ejemplo"
+          },
+          {
+            "title": "Poster spacing",
+            "text": "Use an outer margin equal to one symbol width. Keep the lower information line aligned with the mirror’s working edge."
+          }
+        ],
+        "id": "brand-page-34",
+        "layout": "applications"
+      },
+      {
+        "title": "T shirts and totes",
+        "summary": "Design study: use a Bone garment or a Bone printed support for the unchanged symbol. Keep apparel quiet and editorial; no invented merchandise pricing or purchase action.",
+        "examples": [
+          {
+            "title": "El oficio se nota",
+            "text": "Navaja & Roble"
+          },
+          {
+            "title": "Placement",
+            "text": "Place a small full-color symbol on the chest or tote face. Use the exact typographic name separately, with clear space intact."
+          }
+        ],
+        "id": "brand-page-35",
+        "layout": "applications"
+      },
+      {
+        "title": "Grooming kit wrap",
+        "summary": "Design study: adapt packaging to a conceptual grooming-kit sleeve. Use a single frame edge and small signature; do not imply a product range, included contents or a purchasable kit.",
+        "examples": [
+          {
+            "title": "Navaja & Roble",
+            "text": "Estudio de presentación · Sin producto comercial asociado"
+          },
+          {
+            "title": "Sleeve composition",
+            "text": "Use Bone stock, an Oak edge and the full symbol. Keep the principal face open rather than filling it with repeating razor patterns."
+          }
+        ],
+        "id": "brand-page-36",
+        "layout": "applications"
+      },
+      {
+        "title": "Appointment arrival",
+        "summary": "Design study for /visitanos: use a typographic Bogotá composition and a readable weekly schedule. Do not draw a map pin, publish a visitable address or invent contact links.",
+        "examples": [
+          {
+            "title": "Bogotá",
+            "text": "Horario de ejemplo: lunes a sábado, 09:00–19:00. Domingo cerrado."
+          },
+          {
+            "title": "Antes de continuar",
+            "text": "No hay una dirección visitable publicada. Consulta la disponibilidad para explorar la reserva de ejemplo."
+          },
+          {
+            "title": "Schedule structure",
+            "text": "Place days and hours on aligned rows beneath the open frame. If hours cannot load, show a retry message instead of asserting opening."
+          }
+        ],
+        "id": "brand-page-37",
+        "layout": "applications"
+      },
+      {
+        "title": "Booking controls",
+        "summary": "Design study for /reservar: keep one continuous form with visible labels and 44 px targets. Service, barber, date and time precede name and mobile; Revisar stays activatable for validation.",
+        "examples": [
+          {
+            "title": "Revisar la cita de ejemplo",
+            "text": "Elige servicio, barbero, fecha y hora. Después, escribe tu nombre y celular."
+          },
+          {
+            "title": "Selection behavior",
+            "text": "Show every valid time and a next-available option. Preserve the chosen service when no times remain; never switch the barber silently."
+          },
+          {
+            "title": "Field treatment",
+            "text": "Nombre: 2–100 characters, nonblank, preserving accepted input. Celular: 10 digits beginning with 3. Link each error to its visible field."
+          }
+        ],
+        "id": "brand-page-38",
+        "layout": "applications"
+      },
+      {
+        "title": "Appointment confirmation",
+        "summary": "Design study for /reserva/confirmacion: announce success only after an authorized persisted result. Show the saved service reference and one definitive specification; this is not a payment receipt.",
+        "examples": [
+          {
+            "title": "Cita de ejemplo guardada",
+            "text": "No representa atención real ni pago. Guarda tu código para consultar y gestionar esta cita."
+          },
+          {
+            "title": "Copiar código",
+            "text": "Código copiado. Puedes usarlo en Mi cita."
+          },
+          {
+            "title": "Result integrity",
+            "text": "Display the saved interval, service, barber and example price. Without authorized access, request access instead of showing a success screen."
+          }
+        ],
+        "id": "brand-page-39",
+        "layout": "applications"
+      },
+      {
+        "title": "Appointment reminder card",
+        "summary": "Design study: replace a rewards card with a noncommercial appointment note. Use writable fields and the shared frame; introduce no points, stamps, membership tiers or discounts.",
+        "examples": [
+          {
+            "title": "Tu cita, a mano",
+            "text": "Servicio: ______ · Barbero: ______ · Fecha y hora: ______"
+          },
+          {
+            "title": "Privacy and scope",
+            "text": "Do not print a reservation credential on an exposed card. This is a stationery study, not an automated reminder or loyalty feature."
+          }
+        ],
+        "id": "brand-page-40",
+        "layout": "applications"
+      },
+      {
+        "title": "Barbershop sign",
+        "summary": "Design study: use the horizontal signature on a quiet Bone sign face. Prioritize the exact name at distance; use the beveled frame without adding a real address or fabricated heritage.",
+        "examples": [
+          {
+            "title": "Navaja & Roble",
+            "text": "El oficio se nota"
+          },
+          {
+            "title": "Sign hierarchy",
+            "text": "Keep the name larger than the supporting line. The symbol retains its original colors and clear space; avoid neon and faux-aged textures."
+          }
+        ],
+        "id": "brand-page-41",
+        "layout": "applications"
+      },
+      {
+        "title": "Booking website",
+        "summary": "Design study: connect all nine planned routes through the shared mirror. Booking requires the database; if unavailable, retain context and show recovery, never fabricated availability or local-only success.",
+        "examples": [
+          {
+            "title": "Reservar ahora",
+            "text": "Explora Servicios, conoce a los Barberos y consulta Visítanos. Elige tu cita de ejemplo cuando estés listo."
+          },
+          {
+            "title": "Route continuity",
+            "text": "/ → /servicios, /barberos, /visitanos → /reservar → /reservar/revisar → /reserva/confirmacion. Preserve validated public selections."
+          },
+          {
+            "title": "Private views",
+            "text": "/mi-cita manages only the authorized appointment. /dueno groups the daily agenda by Tomás, Julián and Samuel; use full lists on mobile."
+          }
+        ],
+        "id": "brand-page-42",
+        "layout": "applications"
+      },
+      {
+        "title": "Favicon",
+        "summary": "Design study: reuse the same symbol geometry for favicon and app icon. Keep a Bone canvas support and the complete frame; do not create an unrelated initial or retain starter artwork.",
+        "examples": [
+          {
+            "title": "Navaja & Roble",
+            "text": "Servicios y reservas de ejemplo"
+          },
+          {
+            "title": "Small-icon composition",
+            "text": "Center the full symbol with even padding. Preserve the Oak frame, Steel bevel and Burgundy edge marker at every icon size."
+          }
+        ],
+        "id": "brand-page-43",
+        "layout": "logo"
+      },
+      {
+        "title": "Stationery",
+        "summary": "Design study: use Bone paper, Ink body copy and a small upper-left signature. Align the text column to the symbol’s working edge; omit invented legal, address and contact details.",
+        "examples": [
+          {
+            "title": "El oficio se nota",
+            "text": "Navaja & Roble · Nota de presentación"
+          },
+          {
+            "title": "Letter layout",
+            "text": "Keep one wide reading column and a quiet Oak footer rule. Do not make the frame a heavy border around every paragraph."
+          }
+        ],
+        "id": "brand-page-44",
+        "layout": "applications"
+      },
+      {
+        "title": "Business cards",
+        "summary": "Design study: use the front for the signature and the back for supplied team information. Do not add phone numbers, email addresses, social handles or unverified qualifications.",
+        "examples": [
+          {
+            "title": "Tomás",
+            "text": "Cortes clásicos · Navaja & Roble"
+          },
+          {
+            "title": "Julián",
+            "text": "Diseño de barba · Navaja & Roble"
+          },
+          {
+            "title": "Samuel",
+            "text": "Afeitado tradicional · Navaja & Roble"
+          }
+        ],
+        "id": "brand-page-45",
+        "layout": "applications"
+      },
+      {
+        "title": "Service gift note",
+        "summary": "Design study: adapt the gift-card format into a nonredeemable editorial note. Keep the personal message separate from the signature; show no monetary balance, voucher code or purchase flow.",
+        "examples": [
+          {
+            "title": "Un momento para ti",
+            "text": "Navaja & Roble · Nota ilustrativa sin valor comercial ni canje"
+          },
+          {
+            "title": "Note composition",
+            "text": "Use a Bone writing area inside an open Oak frame. Keep “Para” and “De” as simple writing prompts, not digital account fields."
+          }
+        ],
+        "id": "brand-page-46",
+        "layout": "applications"
+      },
+      {
+        "title": "Packaging seal",
+        "summary": "Design study: place the complete symbol on a Bone seal with clear outer padding. Treat it as an identity closure only, never as certification, a guarantee or evidence of a real product.",
+        "examples": [
+          {
+            "title": "Navaja & Roble",
+            "text": "El oficio se nota"
+          },
+          {
+            "title": "Seal placement",
+            "text": "Center the symbol on a square seal across a sleeve fold. Keep the symbol itself away from the crease so its connected frame remains visible."
+          }
+        ],
+        "id": "brand-page-47",
+        "layout": "applications"
+      },
+      {
+        "title": "Customer support",
+        "summary": "Design study for in-page assistance: keep errors calm, contextual and recoverable. Use authorized code access in Mi cita; never invent chat, email, phone support or external notifications.",
+        "examples": [
+          {
+            "title": "Consulta tu cita",
+            "text": "Ingresa tu código de reserva para acceder a la cita autorizada. No lo compartas."
+          },
+          {
+            "title": "¿Cancelar esta cita?",
+            "text": "La cita quedará cancelada. Puedes volver sin hacer cambios o confirmar la cancelación."
+          },
+          {
+            "title": "Ese horario ya no está disponible",
+            "text": "Tu cita actual sigue vigente. Elige otra hora para la propuesta y revísala antes de confirmar el cambio."
+          }
+        ],
+        "id": "brand-page-48",
+        "layout": "applications"
+      },
+      {
+        "title": "Thank you",
+        "summary": "This guide presents an original identity proposed for this project, with examples of its visual and editorial use.",
+        "examples": [
+          {
+            "title": "El oficio se nota",
+            "text": "Navaja & Roble · Una identidad coherente, de la primera mirada al último detalle."
+          },
+          {
+            "title": "Source list",
+            "text": "Supplied Navaja & Roble brief and project plan; supplied Barlow Condensed and Source Sans 3 font resources. No external identity sources."
+          },
+          {
+            "title": "Production boundary",
+            "text": "Keep supplied example facts unchanged. Database-backed actions remain requirements of the site; this guide does not claim they have been built."
+          }
+        ],
+        "id": "brand-page-49",
+        "layout": "cover"
+      }
+    ]
+  }
+}

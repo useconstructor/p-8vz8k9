@@ -1,45 +1,10 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import type { CSSProperties } from "react";
+import { fontAssets } from "@/data/font-assets";
+import branding from "../../branding.json";
+import { Header, Footer } from "@/components/nr/shell";
 import "./globals.css";
-import { ThemeProvider } from "@/components/theme-provider";
-import { TooltipProvider } from "@/components/ui/tooltip";
-import { Toaster } from "@/components/ui/sonner";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
-export const metadata: Metadata = {
-  title: "Next.js + shadcn/ui Template",
-  description: "Starter template with Next.js, Tailwind CSS, and shadcn/ui",
-};
-
-export default function RootLayout({ children }: LayoutProps<"/">) {
-  return (
-    <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-      suppressHydrationWarning
-    >
-      <body className="min-h-full flex flex-col">
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
-        >
-          <TooltipProvider>
-            {children}
-            <Toaster richColors position="bottom-right" />
-          </TooltipProvider>
-        </ThemeProvider>
-      </body>
-    </html>
-  );
-}
+export const metadata: Metadata = { title: { default: `${branding.logoText} · El oficio se nota`, template: `%s · ${branding.logoText}` }, manifest: "/manifest.webmanifest", description: "Barbería clásica ficticia de Bogotá. Descubre los servicios de ejemplo y reserva tu cita de demostración.", icons: { icon: "/icon.svg", apple: "/brand-mark.svg" } };
+export default function RootLayout({ children }: {
+    children: React.ReactNode;
+}) { const faces = branding.brandbook.fontFaces.map(f => { const local = fontAssets.find(asset => asset.source === f.url)?.local; return `@font-face{font-family:${JSON.stringify(f.family)};font-weight:${f.weight};font-style:normal;font-display:swap;src:url(${JSON.stringify(local || f.url)});}`; }).join("\n"); const style = { "--brand-background": branding.backgroundColor, "--brand-surface": branding.secondaryColor, "--brand-primary": branding.primaryColor, "--brand-accent": branding.accentColor, "--brand-text": branding.textColor, "--brand-font-heading": `'${branding.fontHeading}'`, "--brand-font-body": `'${branding.fontBody}'`, "--radius": branding.borderRadius } as CSSProperties; const api = process.env.NEXT_PUBLIC_CONSTRUCTOR_API?.replace(/\/$/, "") || "https://constructor-api-git-dev-useconstructor.vercel.app"; const project = process.env.NEXT_PUBLIC_PROJECT_ID || "P-8VZ8K9"; return <html lang="es" style={style}><head><style>{faces}</style><script dangerouslySetInnerHTML={{ __html: "for (const face of document.fonts) { face.load().catch(error => console.error('Brand font failed to load:', face.family, face.weight, error)); }" }}/><link rel="preload" href="/fonts/barlow-condensed-600.ttf" as="font" type="font/ttf" crossOrigin="anonymous"/><link rel="preload" href="/fonts/source-sans-3-400.ttf" as="font" type="font/ttf" crossOrigin="anonymous"/></head><body><Header />{children}<Footer /><script src={"https://constructor-api-git-dev-useconstructor.vercel.app/v1/projects/P-8VZ8K9/analytics/script.js"} defer></script><script src="/constructor-editor.js" defer/></body></html>; }
